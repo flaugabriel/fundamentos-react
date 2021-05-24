@@ -11,6 +11,8 @@ import FamilhaMembro from './components/basicos/FamilhaMebro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega'
 
 export default _ =>
 
@@ -54,8 +56,17 @@ export default _ =>
       <Card titulo="# 10 Comunicação indireta" color="#AB888">
         <IndiretaPai />
       </Card>
+
       <Card titulo="# 11 Comunicação indireta" color="#E4BAD44">
         <Input/>
+      </Card>
+
+      <Card titulo="# 12 contador" color="#E4BAD44">
+        <Contador numeroInicial={10}></Contador>
+      </Card>
+
+      <Card titulo="# 13 Mega" color="#E4BAD45">
+        <Mega qtde={8}></Mega>
       </Card>
     </div>
   </div>
